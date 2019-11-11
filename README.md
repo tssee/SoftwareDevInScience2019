@@ -1,2 +1,2 @@
-# SoftwareDevInScience2019
-Workshop Repository
+# Software Development in Science Workshop Repository
+November 2019
