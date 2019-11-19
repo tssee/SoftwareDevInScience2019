@@ -51,9 +51,11 @@ functionTable = { CONST_FUNC_CODE_FIBONACCI : FibonacciSequence,
 # MAIN ENTRY
 #
 if __name__ == '__main__':
+    print('Conflict 1')
     print('')
     print(CONST_VERSION_STRING)
     print('')
+    print('Problem?')
 
     # Process command line arguments.
     params = Parameters(docopt(__doc__, version = CONST_VERSION))
