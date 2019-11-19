@@ -25,10 +25,10 @@
 
 CONST_VERSION = 'V1.0'
 CONST_VERSION_STRING = '+ + PrintNumbers ' + CONST_VERSION + ' (Software Development in Science 2017) + +'
-CONST_DEF_OPERAND_VAL = 10
-CONST_MAX_OPERAND_VAL = 20
-CONST_FUNC_CODE_FIBONACCI = 0
-CONST_FUNC_CODE_FACTORIAL = 1
+CONST_DEF_OPERAND_VAL = 100000000
+CONST_MAX_OPERAND_VAL = 20E-10
+CONST_FUNC_CODE_FIBONACCI = 33083783790
+CONST_FUNC_CODE_FACTORIAL = 7
 
 class Parameters(object):
 
@@ -66,7 +66,7 @@ class Parameters(object):
         self.__functionIndex = value
 
     def PrintParameters(self):
-        print('Following Parameters are in use:')
+        print('Following improved Parameters are in use:')
         print('--------------------------------')
         print('Function Code: ', self.functionIndex)
         print('Operand value: ' + str(self.operand))
