@@ -51,6 +51,8 @@ functionTable = { CONST_FUNC_CODE_FIBONACCI : FibonacciSequence,
 # MAIN ENTRY
 #
 if __name__ == '__main__':
+
+    print('Hello I inserted a new line :)')
     print('')
     print(CONST_VERSION_STRING)
     print('')
