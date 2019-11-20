@@ -33,6 +33,10 @@ def FibonacciSequence(n):
     :param n:   Operand
     :return:    fib(n) as list of fibonacci numbers, [0, 1, 1, 2, ... ]
     '''
+
+
+    if n<=0:
+        raise ValueError("0 or negative")
     sequence = []
     for i in range(n):
         sequence.append(FibonacciRecursion(i))
