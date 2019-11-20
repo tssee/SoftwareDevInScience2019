@@ -32,6 +32,7 @@ from functions.fibonacci import *
 class TestFibonacci2(unittest.TestCase):
 
     def test_value_1(self):
+        print("Doesnt it work beautifully?")
         self.assertTrue(FibonacciSequence(20)[-1] > 20 )
 
 
