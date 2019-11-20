@@ -40,6 +40,12 @@ class TestFibonacci(unittest.TestCase):
     def test_value_10(self):
         self.assertEqual(FibonacciSequence(10), [0, 1, 1, 2, 3, 5, 8, 13, 21, 34])
 
+    def test_valueerror_neg(self):
+        self.assertRaises(ValueError,FibonacciSequence,-10)
+
+    def test_valueerror_zero(self):
+        self.assertRaises(ValueError,FibonacciSequence,0)
+
 
 def suite():
     suite = unittest.makeSuite(TestFibonacci, 'test')
